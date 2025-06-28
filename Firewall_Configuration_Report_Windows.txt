@@ -1,0 +1,47 @@
+
+Firewall Configuration Report
+=============================
+
+Task 4: Setup and Use a Firewall on Windows
+
+
+System Used: Microsoft Windows
+Firewall Tool: Windows Defender Firewall with Advanced Security
+
+Objective:
+----------
+To configure and test basic firewall rules to allow or block traffic on Windows using the built-in firewall settings.
+
+Steps Performed:
+----------------
+1. Opened Windows Defender Firewall → Advanced Settings.
+2. Created an Inbound Rule to block Telnet (Port 23):
+   - Rule Type: Port
+   - Protocol: TCP
+   - Port: 23
+   - Action: Block the connection
+   - Applied to: Domain, Private, Public
+   - Name: Block Telnet Port 23
+
+3. Created an Inbound Rule to allow SSH (Port 22):
+   - Rule Type: Port
+   - Protocol: TCP
+   - Port: 22
+   - Action: Allow the connection
+   - Name: Allow SSH Port 22
+
+4. Verified active rules and confirmed rule behavior.
+5. Deleted the Telnet block rule after testing.
+
+Summary:
+--------
+- Successfully applied and tested inbound rules using Windows Firewall.
+- Telnet was blocked (port 23), preventing insecure remote access.
+- SSH remained open for secure communications (port 22).
+
+Firewall Key Concepts:
+-----------------------
+- Firewalls filter traffic based on port numbers and direction (inbound/outbound).
+- Port 23 (Telnet) is insecure and should be blocked.
+- Port 22 (SSH) is secure and should be allowed if required.
+- Stateful firewalls track active connections to allow smarter filtering.
