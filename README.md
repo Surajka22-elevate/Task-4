@@ -1,5 +1,8 @@
 ![Screenshot 2025-06-28 185215](https://github.com/user-attachments/assets/b684ae85-f53b-4a65-8eb0-68cfa0aab6ee)
 
+![image](https://github.com/user-attachments/assets/cc359ad4-ee6f-4800-8f08-b9cac5474019)
+
+
 🔥 Task 4: Setup and Use a Firewall on Windows
 
 🎯 Objective
