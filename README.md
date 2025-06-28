@@ -1,3 +1,4 @@
+![Screenshot 2025-06-28 185215](https://github.com/user-attachments/assets/b684ae85-f53b-4a65-8eb0-68cfa0aab6ee)
 
 🔥 Task 4: Setup and Use a Firewall on Windows
 
